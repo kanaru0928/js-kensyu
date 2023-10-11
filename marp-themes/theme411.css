@@ -106,11 +106,7 @@ section.slides pre{
     margin: 1rem 0;
 }
 
-section img{
+section table td img {
     display: block;
-
-    border-radius: .5rem;
-
-    height: 400px;
-    position: absolute;
+    margin: 0 auto;
 }
