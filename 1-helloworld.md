@@ -44,7 +44,7 @@ store IntRet
 
 ---
 # Hello world
-JavaScriptで"Hello world"と表示します。
+JavaScript(JS)で"Hello world"と表示します。JSでは`console.log("表示したい文字");`¹と命令を書くことで、文字を表示することができます。
 ## HTMLを使う方法
 1. `index.html`と`script.js`を同じディレクトリに配置 
 
@@ -111,3 +111,7 @@ https://atcoder.jp/contests/APG4b/tasks/APG4b_cv
 ログには様々な種類があります。今回使った`console.log`は通常の標準出力ですが、`console.error`とすると標準エラー出力として出力され、表示色も変わります。それ以外にも、JavaScriptには便利な出力方法がたくさんあります。目的に応じてログを使い分けるようにしましょう。
 ## 関連リンク
 https://qiita.com/baby-degu/items/1046763163bc794870ea
+
+---
+# 注釈
+1. `""`(ダブルクォーテーション)はその中が(命令ではなく)文字列であること、末尾の`;`(セミコロン)は命令の1文がそこで終わることを表します。JSにおいて末尾の`;`は省略可能ですが、書く癖を付けた方が良いです。実際の開発現場ではコーディング規約が事前に決められており、セミコロンの有無はそれに従います。
