@@ -104,3 +104,10 @@ https://atcoder.jp/contests/APG4b/tasks/APG4b_cv
 |:-----|:-----|
 | ソースコード欄にコードを書き、提出ボタンを押す | ![h:150](1-ac_submit.png) |
 | 結果欄に`AC`と表示されれば正解 | ![h:150](1-ac_ac.png) |
+
+---
+# 参考
+## ログの種類
+ログには様々な種類があります。今回使った`console.log`は通常の標準出力ですが、`console.error`とすると標準エラー出力として出力され、表示色も変わります。それ以外にも、JavaScriptには便利な出力方法がたくさんあります。目的に応じてログを使い分けるようにしましょう。
+## 関連リンク
+https://qiita.com/baby-degu/items/1046763163bc794870ea
