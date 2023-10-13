@@ -10,6 +10,7 @@ _paginate: false
 -->
 
 # team411研修資料
+
 ## 項目1. Hello, world
 
 ---
@@ -17,6 +18,7 @@ _paginate: false
 class: slides
 -->
 # プログラミングとは
+
 **コンピュータに対する命令**を書くこと。
 
 ```js
@@ -32,24 +34,37 @@ store IntRet
 ```
 
 ---
+
 # プログラミングのルール
+
 ## 順次
+
 - 上から順番に実行される
+
 ## 分岐
+
 - 実行する命令を分岐させる
 - ex. ruby, JSの`if`文
+
 ## 繰り返し
+
 - 命令を繰り返す
 - ex. rubyの`while`文
 
 ---
+
 # Hello world
+
 JavaScript(JS)で"Hello world"と表示します。JSでは`console.log("表示したい文字");`¹と命令を書くことで、文字を表示することができます。
+
 ## HTMLを使う方法
-1. `index.html`と`script.js`を同じディレクトリに配置 
+
+1. `index.html`と`script.js`を同じディレクトリに配置
 
 ---
+
 2. `index.html`に以下を記入(コピペOK)
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -63,24 +78,31 @@ JavaScript(JS)で"Hello world"と表示します。JSでは`console.log("表示�
 </body>
 </html>
 ```
+
 ---
 
 3. `script.js`に以下を記入
+
 ```js
 console.log("Hello world");
 ```
+
 4. `index.html`をブラウザで開いてF12キーを押す
 1. 検証ツールのConsoleタブを開いて結果を確認
 
 ---
+
 ## AtCoderのコードテスト
+
 1. AtCoderに新規登録
-https://atcoder.jp/register
+<https://atcoder.jp/register>
 1. コードテストに以下を入力
+
 ```js
 console.log("Hello world");
 ```
-コードテスト: https://atcoder.jp/contests/APG4b/custom_test
+
+コードテスト: <https://atcoder.jp/contests/APG4b/custom_test>
 > コードはコードテストに直接書くよりも、VSCode等に書いてからコピペする方が良い。
 
 3. 言語を`JavaScript (Node.js 18.16.1)`に設定
@@ -88,30 +110,43 @@ console.log("Hello world");
 3. `実行`を押す
 
 ---
+
 # 実行結果の例
+
 | HTMLの結果                   | AtCoderの結果 |
 |-----------------------------|--------------|
 | ![h:200](1-html_result.png) | ![h:200](1-ac_result.png) |
 
 ---
+
 # 演習問題
+
 1. APG4b EX1 (C++用の解説が載っていますが、今回はJSなので無視してください)
-https://atcoder.jp/contests/APG4b/tasks/APG4b_cv
+<https://atcoder.jp/contests/APG4b/tasks/APG4b_cv>
 
 ---
+
 # AtCoderの提出方法
+
 | 手順  |  |
 |:-----|:-----|
 | ソースコード欄にコードを書き、提出ボタンを押す | ![h:150](1-ac_submit.png) |
 | 結果欄に`AC`と表示されれば正解 | ![h:150](1-ac_ac.png) |
 
 ---
+
 # 参考
+
 ## ログの種類
+
 ログには様々な種類があります。今回使った`console.log`は通常の標準出力ですが、`console.error`とすると標準エラー出力として出力され、表示色も変わります。それ以外にも、JavaScriptには便利な出力方法がたくさんあります。目的に応じてログを使い分けるようにしましょう。
+
 ## 関連リンク
-https://qiita.com/baby-degu/items/1046763163bc794870ea
+
+<https://qiita.com/baby-degu/items/1046763163bc794870ea>
 
 ---
+
 # 注釈
+
 1. `""`(ダブルクォーテーション)はその中が(命令ではなく)文字列であること、末尾の`;`(セミコロン)は命令の1文がそこで終わることを表します。JSにおいて末尾の`;`は省略可能ですが、書く癖を付けた方が良いです。実際の開発現場ではコーディング規約が事前に決められており、セミコロンの有無はそれに従います。
