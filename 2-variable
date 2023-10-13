@@ -1,0 +1,108 @@
+---
+marp: true
+theme: theme411
+class: slides
+paginate: true
+---
+<!--
+_class: title
+_paginate: false
+-->
+
+# team411研修資料
+
+## 項目2. 変数
+
+---
+
+# 変数とは
+
+データを入れる**箱**のようなもの。様々なデータを一時的に保管・処理することができる。
+
+![h:500](2-box.png)
+
+---
+
+# 変数の定義と宣言
+
+## 宣言
+
+変数を使うためにはまず**宣言**をしなければならない。宣言は次のように行う。
+
+```js
+let 変数名;
+```
+
+## 定義
+
+変数は使用前に内容を初期化する必要がある。これを**定義**という。
+
+```js
+変数名 = 初期値;
+```
+
+---
+
+# 変数定義の便利な構文
+
+定義と宣言は次のようにまとめてすることができる。
+
+```js
+let 変数名 = 初期値;
+```
+
+---
+
+# 変数の型
+
+## 例
+
+```js
+let greet;
+greet = "Hello";
+console.log(a);
+// 出力結果：Hello
+```
+
+## 解説
+
+変数`a`に文字列`Hello`が**代入**され、それを`console.log`で表示している。
+
+---
+
+# 変数の型
+
+変数には、中身のデータがどういう種類のものかを表す**型**という概念がある。
+
+![h:500](2-type.PNG)
+
+---
+
+# 型の例
+
+| 型名 | 説明 | 例 |
+|:----|:----|:----|
+| string | 文字列を表す。 | `"hello"` |
+| number | 数値を表す。 | `100` |
+| boolean | 真偽値を表す。 | `true` |
+| Array | 配列を表す。 | `[1, 2, 3]` |
+
+---
+
+# 変数の型
+
+変数の型は`typeof 変数名`と書くことで取得できる。
+
+```js
+let variable1 = 10;
+console.log(typeof variable1);
+// 出力結果：number
+
+let variable2 = "Hello world";
+console.log(typeof variable2);
+// 出力結果：string
+
+let variable3 = true;
+console.log(typeof variable3);
+// 出力結果：boolean
+```
